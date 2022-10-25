@@ -7,4 +7,10 @@ interface IBtnProps {
 }
 declare const Btn: React.FC<IBtnProps>;
 
-export { Btn, IBtnProps };
+interface IMUIButtonProps {
+    onClick: (e?: any) => void;
+    children: React.ReactNode;
+}
+declare const MUIButton: React.FC<IMUIButtonProps>;
+
+export { Btn, IBtnProps, IMUIButtonProps, MUIButton };
