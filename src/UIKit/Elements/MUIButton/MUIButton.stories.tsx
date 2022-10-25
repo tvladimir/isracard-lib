@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Btn } from './Btn';
+import { MUIButton } from './MUIButton';
 
 export default {
     /* 👇 The title prop is optional.
     * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
     * to learn how to generate automatic titles
     */
-    title: 'Btn',
-    component: Btn,
+    title: 'MUIButton',
+    component: MUIButton,
 };
 
-export const Primary = () => <Btn onClick={() => { console.log('hello') }} label="Hello">Btn</Btn>;
+export const Primary = () => <MUIButton onClick={() => { console.log('hello') }}>MUIButton</MUIButton>;

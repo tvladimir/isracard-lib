@@ -1,15 +1,16 @@
 import React from 'react';
-import './Btn.css';
+import './Btn.scss';
 
 export interface IBtnProps {
     onClick: (e?: any) => void;
     children: React.ReactNode;
+    label?: string;
 }
 
-export const Btn: React.FC<IBtnProps> = ({ onClick, children }): JSX.Element => {
+export const Btn: React.FC<IBtnProps> = ({ onClick, children, label }): JSX.Element => {
     return (
         <button className='Btn' onClick={onClick} data-testid="btn">
-            {children}
+            {label || children}
         </button>
     )
 }
