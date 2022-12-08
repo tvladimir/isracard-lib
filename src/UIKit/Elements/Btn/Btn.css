@@ -1,7 +1,5 @@
-@import '../../index.scss';
-
 .Btn {
     background-color: aqua;
-    color: $primary;
+    color: var(--primary);
     padding: 15px 25px;
 }

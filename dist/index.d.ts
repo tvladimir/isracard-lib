@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import React from 'react';
 
 interface IBtnProps {
@@ -13,4 +14,13 @@ interface IMUIButtonProps {
 }
 declare const MUIButton: React.FC<IMUIButtonProps>;
 
-export { Btn, IBtnProps, IMUIButtonProps, MUIButton };
+interface ILineProps {
+    children: React.ReactNode;
+    className?: string;
+}
+declare const Line: React.FC<ILineProps>;
+declare const Between: React.FC<ILineProps>;
+
+declare const Cube: () => JSX.Element;
+
+export { Between, Btn, Cube, IBtnProps, ILineProps, IMUIButtonProps, Line, MUIButton };

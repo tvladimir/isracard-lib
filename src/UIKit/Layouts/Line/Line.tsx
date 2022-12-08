@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from './Line.module.scss';
+import './Line.css';
 
 export interface ILineProps {
     children: React.ReactNode;
@@ -8,12 +8,12 @@ export interface ILineProps {
 }
 export const Line: React.FC<ILineProps> = ({ children, className }): JSX.Element => {
     return (
-        <div className={`${classes.Line} ${className}`}>
+        <div className={`${'Line'} ${className}`}>
             {children}
         </div>
     )
 }
 
 export const Between: React.FC<ILineProps> = (props): JSX.Element => {
-    return <Line {...props} className={classes.Between} />
+    return <Line {...props} className={'Between'} />
 }

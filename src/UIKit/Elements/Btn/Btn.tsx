@@ -1,5 +1,5 @@
 import React from 'react';
-import './Btn.scss';
+import './Btn.css';
 
 export interface IBtnProps {
     onClick: (e?: any) => void;

@@ -1,0 +1,6 @@
+
+.Cube {
+    background-color: var(--primary);
+    width: 100px;
+    height: 100px;
+}

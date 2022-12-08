@@ -1,6 +1,6 @@
 {
-  "name": "z-react-lib",
-  "version": "1.0.4",
+  "name": "vv-react-lib",
+  "version": "1.0.5",
   "description": "",
   "scripts": {
     "rollup": "rollup -c",

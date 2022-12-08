@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../';
 declare const _default: {
     title: string;
     component: React.FC<import("./MUIButton").IMUIButtonProps>;

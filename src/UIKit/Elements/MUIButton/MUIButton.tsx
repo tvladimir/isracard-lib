@@ -8,6 +8,13 @@ export interface IMUIButtonProps {
 
 export const MUIButton: React.FC<IMUIButtonProps> = ({ children }): JSX.Element => {
     return (
-        <Button variant="contained">{ children }</Button>
+        <Button 
+            sx={{
+                '&.MuiButton-root': {
+                    border: 'solid 1px var(--primary)',
+                },
+            }}
+            variant="contained" 
+            >{ children }</Button>
     )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import './Line.css';
 export interface ILineProps {
     children: React.ReactNode;
     className?: string;

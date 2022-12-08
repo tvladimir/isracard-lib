@@ -1,9 +1,9 @@
 import React from 'react';
-import classes from './Cube.module.scss';
+import './Cube.css';
 
 export const Cube = () => {
     return (
-        <div className={classes.Cube}>
+        <div className={'Cube'}>
 
         </div>
     )

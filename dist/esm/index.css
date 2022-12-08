@@ -1,3 +1,22 @@
+:root {
+  --primary: red;
+  --gap: 20px;
+}
+
+:root {
+  --primary: red;
+  --gap: 20px;
+}
+
+.MUIButton {
+  border: 3px solid red;
+}
+
+:root {
+  --primary: red;
+  --gap: 20px;
+}
+
 .Btn {
   background-color: aqua;
   color: red;

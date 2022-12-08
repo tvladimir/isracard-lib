@@ -1,8 +1,7 @@
-@import '../../index.scss';
 
 .Line {
     display: flex;
-    gap: $gap;
+    gap: var(--gap);
 }
 
 .Between {
